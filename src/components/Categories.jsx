@@ -31,7 +31,7 @@ import React, {useState} from 'react';
 //
 // export default Categories;
 
-const Categories = ({items, onClick}) => {
+const Categories = ({items}) => {
 
     const[ activeItem, setActiveItem] = useState(null)
 
