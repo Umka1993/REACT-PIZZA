@@ -1,4 +1,4 @@
-export const setPizzas= (items) => {
+export const setPizzas = (items) => {
     return (
         {
             type: 'SET_PIZZAS',
@@ -6,5 +6,7 @@ export const setPizzas= (items) => {
         }
     )
 }
+
+
 
 

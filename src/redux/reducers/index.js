@@ -1,6 +1,6 @@
 import {combineReducers} from "redux";
-import filtersReducer from "./filters";
-import pizzasReducers from "./pizzas";
+import filtersReducer from "./filtersReducer";
+import pizzasReducers from "./pizzasReducer";
 
 
 const rootReducer = combineReducers({
